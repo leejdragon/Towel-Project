@@ -1,0 +1,110 @@
+/* @media all and (max-width: 1920px) {
+
+} */
+
+@media all and (max-width: 1024px) {
+
+
+  .motive .container .motive_title {
+    font-size: 6.4vw;
+    line-height: 1.5em;
+  }
+
+  .ambition .container .title_wrap .ambition_title {
+    font-size: 3vw;
+    line-height: 1.5em;
+  }
+
+  .text_effect .container span {
+    font-size: 3vw;
+    line-height: 1.5em;
+  }
+  
+
+  .nav .nav_menu .nav_list .nav_link {
+    color: #fff;
+  }
+
+  .nav,
+  .motive .container,
+  .towel_bxslider .container,
+  .ambition .container .title_wrap,
+  .content .buttons,
+  .text_effect .container {
+    padding: 0 5vw;
+  }
+
+  .top {
+    bottom: 10px;
+    right: 10px;
+  }
+
+}
+
+@media all and (max-width: 768px) {
+
+  .towel_bxslider,
+  .ambition,
+  .faq,
+  .video {
+    padding: 95px 0 32px;
+  }
+
+  .ambition .container .title_wrap .ambition_title {
+    font-size: 3.5vw;
+  }
+
+  .content .buttons .modal_button {
+    font-size: 5vw;
+    line-height: 1.5em;
+  }
+
+  #modal-container .modal-background .modal h2 {
+    font-size: 5vw;
+    line-height: 1.5em;
+  }
+
+  #modal-container .modal-background .modal p {
+    font-size: 3vw;
+    line-height: 1.5em;
+  }
+}
+
+@media all and (max-width: 500px) {
+
+  .motive .container .motive_title { 
+    font-size: 8.8vw;
+  }
+
+  .ambition .container .title_wrap .ambition_title {
+    font-size: 4.5vw;
+    word-break: keep-all;
+  }
+
+  .text_effect .container span {
+    font-size: 4.5vw;
+  }
+
+  .text_effect .container .dropping-texts > p {
+    font-size: 4.5vw;
+  }
+
+
+  .bx-wrapper {margin-bottom: 0 !important;}
+  .bx-viewport {height: 150px !important;}
+  .towel_img {width: 150px !important;}
+ 
+ 
+  .top {
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+  }
+
+}
+
+@media all and (max-width: 320px) {
+
+}
