@@ -47,7 +47,8 @@ $(document).ready(function () {
     slideMargin: 40,
     slidesToShow: 4,
     pager: false,
-    controls: true
+    controls: true,
+    moveSlides: 1
   });
 });
 
