@@ -12,18 +12,46 @@ window.addEventListener("scroll", function () {
   };
 });
 
+// 웹 스크롤 시 특정 영역 이벤트(반응형)
+let slide02 = document.querySelector('.title_wrap');
 
-// 스크롤 시 특정 영역 이벤트
+window.addEventListener("scroll", function () {
+  let value = window.scrollY;
+  console.log("scrollY", value);
+
+
+  if (window.matchMedia("(max-width: 2560px)").matches) {
+    if (value > 930) {
+      slide02.style.animation = "slide 1.5s";
+    };
+  } else {
+    /* 뷰포트 너비가 400 픽셀 미만 */
+  }
+  
+});
+
+
+// 모바일 스크롤 시 특정 영역 이벤트(반응형)
 let slide = document.querySelector('.title_wrap');
 
 window.addEventListener("scroll", function () {
   let value = window.scrollY;
-  // console.log("scrollY", value);
+  console.log("scrollY", value);
 
-  if (value > 1030) {
-    slide.style.animation = "slide 1.5s";
-  };
+
+  if (window.matchMedia("(max-width: 500px)").matches) {
+    if (value > 470) {
+      slide.style.animation = "slide 1.5s";
+    };
+  } else {
+    /* 뷰포트 너비가 400 픽셀 미만 */
+  }
+
+
+  
 });
+
+
 
 
 // let scale = document.querySelector('.skills_img img');
