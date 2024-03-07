@@ -17,7 +17,7 @@ let slide02 = document.querySelector('.title_wrap');
 
 window.addEventListener("scroll", function () {
   let value = window.scrollY;
-  console.log("scrollY", value);
+  // console.log("scrollY", value);
 
 
   if (window.matchMedia("(max-width: 2560px)").matches) {
@@ -36,7 +36,7 @@ let slide = document.querySelector('.title_wrap');
 
 window.addEventListener("scroll", function () {
   let value = window.scrollY;
-  console.log("scrollY", value);
+  // console.log("scrollY", value);
 
 
   if (window.matchMedia("(max-width: 500px)").matches) {
