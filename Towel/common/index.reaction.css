@@ -104,7 +104,7 @@
   }
 
   .bg {
-    background-position: right center;
+    background-position: right -100px center;
   }
 
 }
